@@ -9,7 +9,7 @@ Implementing backend for dhtmlxGantt using Slim-framework and PDO
 - [Composer](https://getcomposer.org/)
 - MySQL
 
-###Setup
+### Setup
 
 1. Create database and import **schema.sql**
 2. Update connection settings in **src/gantt.php**
@@ -19,6 +19,6 @@ Implementing backend for dhtmlxGantt using Slim-framework and PDO
 
 - `php -S 0.0.0.0:8080 -t public public/index.php`
 
-###Tutorial
+### Tutorial
 
-A complete tutorial here https://docs.dhtmlx.com/gantt/desktop__how_to_start.html
+A complete tutorial here https://docs.dhtmlx.com/gantt/desktop__howtostart_php.html
