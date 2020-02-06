@@ -12,12 +12,17 @@ Implementing backend for dhtmlxGantt using Slim-framework and PDO
 ### Setup
 
 1. Create database and import **schema.sql**
-2. Update connection settings in **src/gantt.php**
+2. Update connection settings in **app/gantt.php**
 3. run `composer install`
 
 ### Run
 
 - `php -S 0.0.0.0:8080 -t public public/index.php`
+
+### Run with Docker
+
+- `docker-compose up -d`
+- http://localhost:8080 in your browser.
 
 ### Tutorial
 
