@@ -102,8 +102,8 @@ function updateTask($request, $response, $args)
 		"WHERE id = :sid";
 	$db->prepare($query)->execute(array_merge($task, [":sid" => $sid]));
 
-	if (isset($params["target"]) && $params["target"])
-		updateOrder($sid, $params["target"], $db);
+	if (isset($body["target"]) && $body["target"])
+		updateOrder($sid, $body["target"], $db);
 
 	$result = [
 		"action" => "updated"
